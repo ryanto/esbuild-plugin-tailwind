@@ -1,0 +1,39 @@
+{
+  "name": "esbuild-plugin-tailwind-css",
+  "version": "0.0.1",
+  "description": "An esbuild plugin for Tailwind CSS",
+  "main": "./dist/plugin.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/plugin.js"
+  },
+  "scripts": {
+    "build": "tsc --declaration --outDir ./dist",
+    "demo": "tsx demo-server"
+  },
+  "keywords": [],
+  "author": "Ryan Toronto",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanto/esbuild-plugin-tailwind-css.git"
+  },
+  "homepage": "https://github.com/ryanto/esbuild-plugin-tailwind-css",
+  "dependencies": {
+    "@tailwindcss/node": "4.0.0-beta.9",
+    "@tailwindcss/oxide": "4.0.0-beta.9",
+    "lightningcss": "^1.29.1"
+  },
+  "peerDependencies": {
+    "esbuild": "*",
+    "tailwindcss": "4.0.0-beta.9"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tsx": "^4.19.2"
+  }
+}
