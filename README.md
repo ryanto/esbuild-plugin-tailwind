@@ -1,16 +1,16 @@
-# esbuild-plugin-tailwind-css
+# esbuild-plugin-tailwind
 
 A plugin to compile Tailwind CSS v4 with esbuild.
 
 ## Usage
 
 ```text
-npm install esbuild-plugin-tailwind-css
+npm install @ryanto/esbuild-plugin-tailwind
 ```
 
 ```js
 import { build } from "esbuild";
-import { esbuildPluginTailwindCSS } from "esbuild-plugin-tailwind-css";
+import { esbuildPluginTailwind } from "@ryanto/esbuild-plugin-tailwind";
 
 await build({
   // ...

@@ -9,7 +9,7 @@ type Options = {
   minify?: boolean;
 };
 
-export function esbuildPluginTailwindCSS(options?: Options): Plugin {
+export function esbuildPluginTailwind(options?: Options): Plugin {
   let base = options?.base ?? process.cwd();
   let minify = options?.minify ?? false;
 
