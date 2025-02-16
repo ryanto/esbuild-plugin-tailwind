@@ -1,6 +1,6 @@
 {
   "name": "@ryanto/esbuild-plugin-tailwind",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An esbuild plugin for Tailwind CSS",
   "main": "./dist/plugin.js",
   "files": [
@@ -22,18 +22,18 @@
   },
   "homepage": "https://github.com/ryanto/esbuild-plugin-tailwind-css",
   "dependencies": {
-    "@tailwindcss/node": "4.0.0-beta.9",
-    "@tailwindcss/oxide": "4.0.0-beta.9",
+    "@tailwindcss/node": "^4.0.6",
+    "@tailwindcss/oxide": "^4.0.6",
     "lightningcss": "^1.29.1"
   },
   "peerDependencies": {
     "esbuild": "*",
-    "tailwindcss": "4.0.0-beta.9"
+    "tailwindcss": ">= 4.0.0"
   },
   "devDependencies": {
-    "@types/node": "^22.10.5",
-    "prettier": "^3.4.2",
-    "prettier-plugin-tailwindcss": "^0.6.9",
+    "@types/node": "^22.13.4",
+    "prettier": "^3.5.1",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "tsx": "^4.19.2"
   }
 }
