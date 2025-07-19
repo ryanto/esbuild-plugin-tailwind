@@ -29,10 +29,11 @@ export function esbuildPluginTailwind(options?: Options): Plugin {
 
         let candidates: string[] = [];
         if (compiler.features > 0) {
-          let sources = [...compiler.globs];
+          let sources = [...compiler.sources];
           if (compiler.root === null) {
-            sources.push({ base, pattern: "**/*" });
+            sources.push({ base, pattern: "**/*", negated: false });
           }
+
           let scanner = new Scanner({
             sources,
           });
