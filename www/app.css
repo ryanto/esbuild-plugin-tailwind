@@ -634,6 +634,9 @@
     filter: var(--tw-blur,)var(--tw-brightness,)var(--tw-contrast,)var(--tw-grayscale,)var(--tw-hue-rotate,)var(--tw-invert,)var(--tw-saturate,)var(--tw-sepia,)var(--tw-drop-shadow,);
   }
 }
+.test-red {
+  color: red;
+}
 @keyframes spin {
   to {
     transform: rotate(360deg);
