@@ -1,6 +1,6 @@
 {
   "name": "@ryanto/esbuild-plugin-tailwind",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An esbuild plugin for Tailwind CSS",
   "main": "./dist/plugin.js",
   "files": [
