@@ -22,7 +22,6 @@ await build({
 
 This plugin is a work in progress and has some limitations.
 
-- It only supports Tailwind CSS v4.
 - Incremental builds are not yet supported. It does a full rebuild every time.
 
 ## Options
