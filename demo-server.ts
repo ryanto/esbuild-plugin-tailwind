@@ -9,6 +9,7 @@ async function main() {
     external: ["tailwindcss"],
     plugins: [
       esbuildPluginTailwind({
+        base: process.cwd(),
         minify: true,
       }),
     ],
