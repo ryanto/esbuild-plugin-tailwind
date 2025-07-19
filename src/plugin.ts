@@ -34,8 +34,6 @@ export function esbuildPluginTailwind(options?: Options): Plugin {
             sources.push({ base, pattern: "**/*", negated: false });
           }
 
-          console.log("sources", sources);
-
           let scanner = new Scanner({
             sources,
           });
